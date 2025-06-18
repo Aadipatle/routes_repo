@@ -9,7 +9,7 @@ import StorageJs from './pages/Storage'
 function App() {
   return (
     <>
-   <BrowserRouter>
+   <BrowserRouter basename="/routes_repo">
    <Header/>
    <Routes>
    <Route  element={<Home/>} path='/home' />
